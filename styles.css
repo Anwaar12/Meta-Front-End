@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(214, 209, 209);
+}
+
+header {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+nav {
+  background-color: rgb(59, 59, 59);
+  width: 90%;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  font-size: 1.8em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  width: 90%;
+  margin-top: 30px;
+}
+
+.offer {
+  background-image: url(./yonFVRknQEiJxVUZJzBIkA_c0e0039d4ddd4a33bc1c0854ba0361e1_Little-Lemon-logos/download.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 20vh;
+  color: white;
+  padding-left: 30px;
+}
+
+.offer h2 {
+  font-size: 2em;
+}
+
+.offer p {
+  width: 50%;
+}
+
+.menu {
+  display: flex;
+  column-gap: 60px;
+}
+
+.img1 {
+  height: 50%;
+}
+
+.menu article {
+  width: 33%;
+  background-color: rgb(236, 215, 225);
+  padding: 20px 30px;
+}
+.menu article h3 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.menu article p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.menu article li {
+  list-style: none;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .copyright {
+  align-self: center;
+  font-size: 1.3em;
+  border-top: 3px solid gray;
+  width: 40%;
+  text-align: end;
+}
